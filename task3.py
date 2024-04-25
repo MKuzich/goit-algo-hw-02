@@ -9,3 +9,6 @@ def check_brackets(string):
                 return False
                 
     return len(stack) == 0
+
+print(check_brackets("([1 + 2] {3{3sdf}f})"))
+print(check_brackets("([{}][)"))

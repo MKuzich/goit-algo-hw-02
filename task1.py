@@ -18,5 +18,9 @@ while True:
     command = input("Enter command: ")
     if command == "exit":
         break
-    generate_request()
-    process_request()
+    elif command == "generate":
+        generate_request()
+    elif command == "process":
+        process_request()
+    elif command == "show":
+        print(list(queue.queue))

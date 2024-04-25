@@ -7,3 +7,6 @@ def is_palindrome(str):
         if deq.popleft() != deq.pop():
             return False
     return True
+
+print(is_palindrome('This is palindrome Emor dnil Ap si sih t'))
+print(is_palindrome('This is not palindrome'))
